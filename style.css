@@ -1,0 +1,152 @@
+footer{
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+}
+
+footer p{
+    color: rgb(153, 153, 153);
+}
+
+footer b, footer a, footer a:visited{
+    color: rgb(140, 140, 140);
+}
+
+footer a:hover{
+    color: rgb(130, 130, 130);
+}
+
+nav{
+    width: 100%;
+    text-align: center; 
+}
+
+nav li{
+    display: inline-block;
+    width: 19%;
+}
+
+nav a, nav a:hover, nav a:visited{
+    font-weight: bold;
+    font-size: 13pt;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;  
+}
+
+section{
+    margin: 15px 0;
+}
+
+.elections article{
+    width: 20%;
+    padding: 10px;
+}
+
+article a, article a:hover, article a:visited{
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+
+.news article{
+    width: 25%;
+    padding: 10px;
+}
+
+
+.list .col-sm-9 div{
+    vertical-align: middle;
+}
+
+.list{
+    margin: 10px;
+}
+
+.list .col-sm-3{
+    padding: 0;
+}
+
+content a, content a:hover, content a:visited{
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+}
+
+label{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.form-group{
+    margin: 20px 0;
+}
+
+.alert{
+    margin: 50px 10px !important;
+}
+
+#center{
+    margin: auto;
+}
+
+#spacing{
+    margin: 30px 0;
+}
+
+.clanak .row{
+    margin: 20px 0;
+}
+
+#border{
+    border-left: 1px solid rgb(130, 130, 130);
+}
+
+#smaller-form{
+    width: 70%;
+}
+
+.error{
+    color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav li {
+        width: 100%;
+        margin: 10px 0; 
+    }
+
+    nav li a, nav li a:hover{
+        font-size: 20pt;
+    }
+
+    header img{
+        margin: auto;
+        width: 50%;
+    }
+
+    .elections article, .news article{
+        width: 100%;
+    }
+
+    .elections p, .news p{
+        font-size: 35pt;
+    }
+
+    #border{
+        border-left:0px;
+        margin-left:-50px; 
+    }
+
+    #smaller-form{
+        width: 100%;
+    }
+
+    .kategorija button{
+        width: 100%;
+        margin-top: 30px;
+         
+    }
+}
